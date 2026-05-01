@@ -15,6 +15,7 @@ mkdir -p /opt/gnome-copr-manager
 
 echo "Copying files..."
 cp -r main.py window.py backend ui /opt/gnome-copr-manager/
+chmod -R 755 /opt/gnome-copr-manager/
 # Recursively copy backend and ui, main.py window.py
 
 # Create launcher script

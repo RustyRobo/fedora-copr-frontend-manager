@@ -15,6 +15,7 @@ mkdir -p /opt/copr-manager-qt
 
 echo "Copying files..."
 cp -r main.py window_old.py backend ui /opt/copr-manager-qt/
+chmod -R 755 /opt/copr-manager-qt/
 # Recursively copy backend and ui, main.py window_old.py
 
 # Create launcher script
