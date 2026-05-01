@@ -1,0 +1,5 @@
+# System dependencies strongly recommended (install via dnf)
+# dnf install python3-gobject python3-copr gtk4 libadwaita
+
+PyGObject>=3.40.0
+# copr library is usually provided by python3-copr system package

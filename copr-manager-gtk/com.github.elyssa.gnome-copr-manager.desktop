@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=COPR Manager
+Comment=Manage Fedora COPR Repositories
+Exec=/home/elyssa/.local/bin/gnome-copr-manager.sh
+Icon=system-software-install
+Terminal=false
+Categories=System;Settings;PackageManager;

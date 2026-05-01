@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=CoprManagerQT
+Comment=Manage Fedora COPR Repositories
+Exec=/home/elyssa/.local/bin/copr-manager-qt.sh
+Icon=system-software-install
+Terminal=false
+Categories=System;Settings;PackageManager;

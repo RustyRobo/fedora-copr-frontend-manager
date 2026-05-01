@@ -1,0 +1,5 @@
+# System dependencies strongly recommended (install via dnf)
+# dnf install python3-pyqt6 python3-copr
+
+PyQt6>=6.0.0
+# copr library is usually provided by python3-copr system package
