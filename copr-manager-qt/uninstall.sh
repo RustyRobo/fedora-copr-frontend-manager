@@ -8,13 +8,13 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 echo "Removing application files..."
-rm -rf /opt/gnome-copr-manager
+rm -rf /opt/copr-manager-qt
 
 echo "Removing launcher..."
-rm -f /usr/local/bin/gnome-copr-manager
+rm -f /usr/local/bin/copr-manager-qt
 
 echo "Removing desktop entry..."
-rm -f /usr/share/applications/com.github.elyssa.gnome-copr-manager.desktop
+rm -f /usr/share/applications/com.github.elyssa.copr-manager-qt.desktop
 
 echo "Updating desktop database..."
 update-desktop-database /usr/share/applications/
